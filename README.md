@@ -3,7 +3,7 @@ Python script to quickly find out what common IT acronyms stand for
 
 Getting Started
 -----------------------------------------------------------------------------------
-- Download python if you have not already. I am currently using version 2.7.15
+- Download python if you have not already. I am currently using version 3.7.4
 - Clone this repository: git clone https://github.com/marcusmckinley/AcronymLookup.git
 
 File Structure: 
