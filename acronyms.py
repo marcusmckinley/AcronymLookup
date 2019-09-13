@@ -3,7 +3,7 @@ import os
 
 #Postcondition: clears output screen
 def clear():
-    print "\n" * 100
+    print ("\n" * 100)
 
 #Postcondition: returns a string result of what given acronym stands for or and Error Message
 def linear_search(acronym, arr):
@@ -18,7 +18,7 @@ def linear_search(acronym, arr):
 
 #Postcondition: returns a string result of what given acronym stands for or and Error Message    
 def binary_search(acronym, arr, start, end):
-    mid = (start + end) / 2
+    mid = int((start + end) / 2)
     if (len(arr) == 0):
         return "Empty List"
 
@@ -41,10 +41,10 @@ def binary_search(acronym, arr, start, end):
 done = False
 while (False == done):
     print("Enter an acronym: ")
-    acronym = raw_input()
+    acronym = input()
     clear()
     print("Press Enter to continue\n\n\n")
     #print(acronym + " stands for " + linear_search(acronym, array.all_acronyms))
     print(acronym + " stands for " + binary_search(acronym, array.all_acronyms, 0, len(array.all_acronyms) - 1))
-    acronym = raw_input()
+    acronym = input()
     clear()
