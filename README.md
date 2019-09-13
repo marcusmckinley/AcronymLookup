@@ -30,5 +30,8 @@ acronyms.py
 
 Running the Code: 
 -----------------------------------------------------------------------------------
-1) Navigate to the AcronymLookup directory in the terminal 
-2) Type python acronyms.py and press enter
+1) Navigate to the Python or C++ directory in the terminal -> AcronymLookup < Python or AcronymLookup < C++
+2) If you are running the python program, type python acronyms.py and press enter
+3) If you are running the C++ program, compile and then run the code by entering:
+    - g++ acronyms.cpp
+    - ./a.out
